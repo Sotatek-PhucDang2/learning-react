@@ -63,6 +63,9 @@ body {
     border-radius: 20px;
     margin: 4%;
 }
+.theme_tron:hover{
+    background-color: #eae3db;
+}
 
 /* Màn hình hiển thị */
 .display {
@@ -80,6 +83,9 @@ body {
     border: none;
     margin-bottom: 10px;
     font-size: 50px;
+}
+.display:hover {
+    background-color: #0d101a; 
 }
 
 .container{
@@ -139,4 +145,16 @@ body {
     border-radius: 10px;
     margin: 2px;
     font-size: 30px;
+}
+.btn_so:hover , .btn_tinh:hover{
+    background-color: #566aa0; 
+    color:#eae3db ;
+}
+.btn_del:hover , .btn_reset:hover{
+    background-color: red; 
+    color:#eae3db ;
+}
+.btn_KQ:hover{
+    background-color: #3b4664;
+    color:#eae3db ;
 }
