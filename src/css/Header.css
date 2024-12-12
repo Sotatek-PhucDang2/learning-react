@@ -1,0 +1,40 @@
+.theme{
+    width: 150px;
+    height: 100%;
+    text-align: right;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.theme_box{
+   margin-top: 5px;
+    height: 60%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    width: 150px;
+    display: flex;
+}
+.so{
+    margin-right: 10px;
+}
+.theme_chu{
+    
+    width: 70px;
+    height: 100%;
+}
+.theme_trươt{
+    background-color: #181f33 ;
+    margin-left: 10px;
+    width :100px;
+    height: 100%;
+    border-radius: 15px;
+}
+.theme_tron{
+    background-color:#d13f30;
+    height: 80%;
+    width: 33%;
+    border-radius: 20px;
+    margin: 4%;
+}
+.theme_tron:hover{
+    background-color: #eae3db;
+}

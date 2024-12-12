@@ -1,0 +1,161 @@
+/* Reset mặc định */
+body, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3b4664; /* Nền tối */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header{
+    width: 500px;
+    height: 50px;
+    color:#eae3db ;
+    font-size: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.title{
+    min-width: 50px;
+ }
+/* header */
+.theme{
+    width: 150px;
+    height: 100%;
+    text-align: right;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.theme_box{
+   margin-top: 5px;
+    height: 60%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    width: 150px;
+    display: flex;
+}
+.theme_chu{
+    
+   
+    width: 70px;
+    height: 100%;
+}
+.theme_trươt{
+    background-color: #181f33 ;
+    margin-left: 10px;
+    width :100px;
+    height: 100%;
+    border-radius: 15px;
+}
+.theme_tron{
+    background-color:#d13f30;
+    height: 80%;
+    width: 33%;
+    border-radius: 20px;
+    margin: 4%;
+}
+.theme_tron:hover{
+    background-color: #eae3db;
+}
+/* Màn hình hiển thị */
+.display {
+    width: 500px;
+    height: 120px;
+    background-color: #181f33; /* Màu nền màn hình */
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.display:hover {
+    background-color: #0d101a; 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+    
+}
+
+/* Button */
+.button{
+    background-color: #181f33; 
+   
+    width: 500px;
+    border-radius: 20px;
+}
+.row{
+    margin: 20px;
+}
+
+.btn_so{
+    width: 80px;
+    height: 80px;
+    background-color: #eae3db;
+
+}
+.btn_tinh{
+    width: 200px;
+    height: 80px;
+    background-color: #eae3db;
+
+}
+.btn_del{
+    width: 200px;
+    height: 80px;
+    background-color: #566aa0; 
+    color:#eae3db ;
+
+}
+
+.btn_reset{
+    width: 200px;
+    height: 80px;
+    background-color: #566aa0; 
+    color:#eae3db ;
+}
+.btn_KQ{
+    width: 260px;
+    height: 80px;
+    background-color: red;
+    color:#eae3db ;
+
+}
+.btn_so,.btn_tinh,.btn_reset,.btn_KQ,.btn_del{
+    border-radius: 10px;
+    margin: 2px;
+    font-size: 30px;
+}
+.btn_so:hover , .btn_tinh:hover{
+    background-color: #566aa0; 
+    color:#eae3db ;
+}
+.btn_del:hover , .btn_reset:hover{
+    background-color: red; 
+    color:#eae3db ;
+}
+.btn_KQ:hover{
+    background-color: #3b4664;
+    color:#eae3db ;
+}
