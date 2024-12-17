@@ -1,0 +1,34 @@
+body{
+  background-color: rgb(157, 173, 168);
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* Căn giữa Counter */
+div{
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+button{
+background-color:bisque;
+margin: 10px auto;
+width: 100px;
+height: 50px;
+border-radius: 10px;
+
+
+}
+button:hover{
+  background-color: azure;
+}
+
+button:nth-child(4) {
+  background-color: #b1787e;
+}
