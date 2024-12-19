@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
    <div>
-    <h1>app todoList đơn giản</h1>
+    <h1>TodoList đơn giản</h1>
     <TodoList/>
    </div>
   );

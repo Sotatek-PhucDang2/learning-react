@@ -14,21 +14,25 @@ div{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  /* justify-content: center;   */
+  align-items: center;
 }
 button{
 background-color:bisque;
-margin: 10px auto;
+margin-top: 20px;
+text-align:10px center;
 width: 100px;
 height: 50px;
 border-radius: 10px;
-
-
+font-size: 50px;
 }
+
 button:hover{
   background-color: azure;
 }
 
 button:nth-child(4) {
   background-color: #b1787e;
+  width: 200px;
+  font-size: 40px;
 }
